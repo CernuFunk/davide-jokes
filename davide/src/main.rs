@@ -8,7 +8,7 @@ fn main() {
         .show().unwrap();
     
     let mut audio = Audio::new();
-    audio.add("davide", "audio.mp3");
+    audio.add("davide", "/home/cerfu/Projects/davide-jokes/davide/src/audio.mp3");
     audio.play("davide");
     audio.wait();
 
